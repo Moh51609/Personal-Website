@@ -34,7 +34,7 @@ export default function ProjectsMobile() {
       description:
         "Mit der App kannst du Trinklokale eintragen und Getränke bewerten. Ein Zufallsfeature schlägt dir neue Drinks vor – Login, Passwort-Reset und einige Features inklusive",
       tech: ["Tailwind", "Typescript", "Laravel"],
-      image: "/biersommelierImage_ganz.png",
+      image: "/BiersommelierImage_ganz.png",
     },
 
     {
