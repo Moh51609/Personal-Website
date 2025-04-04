@@ -111,7 +111,7 @@ export default function ProjectsDesktop() {
         >
           <div className="absolute w-full h-full backface-hidden rounded-4xl border-2 border-[#1b1b1b] bg-[#0a0a0a]">
             <img
-              src="/biersommelierImage_ganz.png"
+              src="/BiersommelierImage_ganz.png"
               alt="biersommelierImage"
               className="w-full h-full object-cover rounded-4xl p-2"
             />
