@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Lobster, Poppins } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -27,6 +28,7 @@ export default function RootLayout({
     <html lang="de">
       <body className={`${poppins.variable} ${lobster.variable} antialiased`}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
